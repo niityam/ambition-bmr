@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BatchComponent } from './batch/batch.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
-const routes: Routes = [];
+const routes: Routes = [{path:"batch", component:BatchComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
