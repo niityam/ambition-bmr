@@ -37,12 +37,12 @@ export class BatchComponent {
     this.empDetails.push("Dhiraj", "Milan", "Dharmendra", "Mayank")
 
     if(prod_clicked=="FERROUS ASCORBATE"){
-      this.allRMs.push({ name: "Ferrous Sulphate", quantity: 525 }, { name: "Calcium Hydroxide", quantity: 85 },
-      { name: "Ascorbic Acid", quantity: 250 }, { name: "DM Water", quantity: 650 })
+      this.allRMs.push({ name: "Ferrous Gluconate", quantity: 25 }, { name: "Calcium Carbonate", quantity: 8 },
+      { name: "Citric  Acid", quantity: 25 }, { name: "Deionized  Water", quantity: 65 })
     }
     else if(prod_clicked=="RIBOFLAVIN"){
-      this.allRMs.push({ name: "Acetonitrile", quantity: 275 }, { name: "Pocl3", quantity: 320 },
-      { name: "Pyridine", quantity: 148 }, { name: "Riboflavin", quantity: 182 }, { name: "Methanol", quantity: 1865 }, { name: "Caustic soda flakes", quantity: 115 }, { name: "DM Water", quantity: 1432 })
+      this.allRMs.push({ name: "Isopropanol", quantity: 25 }, { name: "PBr3", quantity: 32 },
+      { name: "Imidazole", quantity: 48 }, { name: "Niacin", quantity: 12 }, { name: "Butanol", quantity: 185 })
     }
   }
 
